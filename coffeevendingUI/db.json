@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Latte",
+      "cost": 2,
+      "remaining": 5,
+      "code": "1"
+    },
+    {
+      "id": 2,
+      "name": "Cappuccino",
+      "cost": 3,
+      "remaining": 8,
+      "code": "2"
+    },
+    {
+      "id": 3,
+      "name": "Irish",
+      "cost": 4,
+      "remaining": 6,
+      "code": "3"
+    },
+    {
+      "id": 4,
+      "name": "Expresso",
+      "cost": 2,
+      "remaining": 9,
+      "code": "4"
+    }
+  ]
+}

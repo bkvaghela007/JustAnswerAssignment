@@ -1,0 +1,3 @@
+<p class="display -sm-width">{{ coinBalance? (coinBalance | currency:'USD':true): 'INSERT COIN' }}</p>
+<button class="button -yellow" (click)='addBalance(1)'>$1</button>
+<button class="button -blue" (click)='addBalance(5)'>$5</button>

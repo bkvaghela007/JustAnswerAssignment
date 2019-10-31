@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { HttpClientTestingModule } from '@angular/common/http/testing'
 import { DispenseItemComponent } from './dispense-item.component';
 
 describe('DispenseItemComponent', () => {
@@ -8,6 +8,7 @@ describe('DispenseItemComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
       declarations: [ DispenseItemComponent ]
     })
     .compileComponents();
